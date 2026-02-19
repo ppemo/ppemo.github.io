@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "带图片的文章"
-date: 2026-02-23 09:00:00 +0800
+date: 2026-02-16 09:00:00 +0800
 categories: [教程]
 tags: [图片, Markdown]
 image:

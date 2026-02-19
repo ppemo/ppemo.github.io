@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "我的第一篇博文"
-date: 2026-02-20 10:00:00 +0800
+date: 2026-02-19 10:00:00 +0800
 categories: [随笔, 生活]
 tags: [开始, 博客]
 pin: false

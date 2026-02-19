@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "关于技术的一篇文章"
-date: 2026-02-21 11:00:00 +0800
+date: 2026-02-18 11:00:00 +0800
 categories: [技术, 编程]
 tags: [Jekyll, Web]
 ---
