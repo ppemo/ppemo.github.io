@@ -3,8 +3,15 @@ layout: post
 title: "aria2 全方位深度解析：面向开发者的命令行下载神器"
 date: 2026-02-20 00:00:00 +0800
 description: "本文深度剖析轻量级命令行下载工具 aria2，覆盖其多协议支持、多线程加速等核心特性，提供命令行用法、aria2.conf 最佳实践配置，并介绍基于 RPC 实现的 Web UI 生态（如 AriaNg），旨在为开发者和技术爱好者提供一份终极使用指南。"
-categories: [工具, 命令行]
-tags: [aria2, download, cli, efficiency, automation]
+categories:
+  - 工具
+  - 命令行
+tags:
+  - aria2
+  - download
+  - cli
+  - efficiency
+  - automation
 pin: false
 comments: true
 toc: true

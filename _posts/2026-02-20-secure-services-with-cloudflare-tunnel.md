@@ -3,8 +3,16 @@ layout: post
 title: "Cloudflare Tunnel 深度解析：零信任架构下的安全“内网穿透”"
 date: 2026-02-20 00:00:00 +0800
 description: "本文深度剖析 Cloudflare Tunnel 的工作原理与核心优势，提供从安装、授权到配置 config.yml 的完整实战指南。阐述如何利用这一零信任工具，无需公网 IP 或开放端口，安全、持久地暴露本地服务。"
-categories: [网络, 安全, Cloudflare]
-tags: [Cloudflare Tunnel, Zero Trust, 内网穿透, cloudflared, self-host]
+categories:
+  - 网络
+  - 安全
+  - Cloudflare
+tags:
+  - Cloudflare Tunnel
+  - Zero Trust
+  - 内网穿透
+  - cloudflared
+  - self-host
 pin: false
 comments: true
 toc: true
