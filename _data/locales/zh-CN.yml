@@ -1,0 +1,38 @@
+# The layout language
+# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
+# otherwise, the layout language will use the default value of 'en'.
+lang: zh-CN
+
+# The text of the site
+# The text of the site will be displayed in the language of the layout.
+# If you want to change the text, you can change the value of the key.
+# If you want to add a new language, you can create a new file in folder `_data/locales` and name it as `xx.yml`.
+# Then, you can change the value of `lang` in `_config.yml` to `xx`.
+
+# Home page
+home: 首页
+posts: 文章
+categories: 分类
+tags: 标签
+archives: 归档
+about: 关于
+
+# Search
+search: 搜索
+search_placeholder: 搜索...
+
+# Post
+post:
+  toc: 目录
+  share: 分享
+  related_posts: 相关文章
+  newer: 上一篇
+  older: 下一篇
+
+# Comments
+comments: 评论
+
+# Footer
+powered_by: 驱动
+theme: 主题
+built_with: 基于
