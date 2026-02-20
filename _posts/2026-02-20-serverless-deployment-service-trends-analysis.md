@@ -1,9 +1,15 @@
 ---
+layout: post
 title: 2026年无服务器(Serverless)部署服务趋势分析
 date: 2026-02-20 00:00:00 +0800
-author: ppemo
+description: "本文分析了 2026 年无服务器 (Serverless) 部署服务的关键趋势，包括成本优化 (FinOps)、AI/ML 集成、边缘计算融合及主流平台对比，旨在为开发者提供前瞻性技术洞察。"
 categories: [技术观察, 云原生]
 tags: [serverless, faas, cloud-native, trends]
+pin: false
+comments: true
+toc: true
+published: true
+lang: zh-CN
 ---
 
 ## 引言
