@@ -1,6 +1,7 @@
 ---
 title: A Deep Dive into Modern Web Development
 date: 2026-02-20 10:00:00 +0800
+layout: post
 categories: [Web Development, Tutorial]
 tags: [webdev, frontend, backend, devops, javascript]
 ---
