@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Chirpy 主题常用配置项解析
-date: 2026-02-20T11:00:00
+date: 2026-02-20
 description: 本文系统性解析 Chirpy Jekyll 主题的各项核心配置，旨在提供清晰、结构化的参考，助力用户高效定制博客。涵盖基础设置、SEO、本地化、评论系统及作者信息管理等关键模块。
 categories:
   - Jekyll
