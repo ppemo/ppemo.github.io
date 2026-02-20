@@ -1,0 +1,6 @@
+<figure>
+  <img src="{{ include.src | default: include.path }}" alt="{{ include.alt | default: '图片' }}" {% if include.class %}class="{{ include.class }}"{% endif %}>
+  {% if include.caption %}
+    <figcaption>{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>
