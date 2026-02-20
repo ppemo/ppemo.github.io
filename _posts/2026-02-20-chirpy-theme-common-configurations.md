@@ -270,7 +270,7 @@ Chirpy 主题支持标准的 Markdown 图片语法，并提供了一个增强的
 
 #### C. 灯箱效果 (Lightbox)
 
-所有通过 `{% include figure.html ... %}` 方式嵌入的图片，Chirpy 主题都会自动为其启用 `glightbox` 灯箱效果。用户点击图片后，图片将在一个全屏遮罩层中放大显示，提供更佳的浏览体验。标准 Markdown 方式嵌入的图片则不具备此效果。
+所有通过 `{% raw %}{% include figure.html ... %}{% endraw %}` 方式嵌入的图片，Chirpy 主题都会自动为其启用 `glightbox` 灯箱效果。用户点击图片后，图片将在一个全屏遮罩层中放大显示，提供更佳的浏览体验。标准 Markdown 方式嵌入的图片则不具备此效果。
 
 ---
 
