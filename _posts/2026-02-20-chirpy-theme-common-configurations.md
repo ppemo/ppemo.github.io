@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Chirpy 主题常用配置项解析
-date: 2026-02-20
+date: 2026-02-20 00:00:00 +0800
 description: 本文系统性解析 Chirpy Jekyll 主题的各项核心配置，旨在提供清晰、结构化的参考，助力用户高效定制博客。涵盖基础设置、SEO、本地化、评论系统及作者信息管理等关键模块。
 categories:
   - Jekyll
@@ -195,6 +195,33 @@ Chirpy 主题内置了 PWA 功能，可提供类似原生应用的移动端体�
 
 *   **`paginate`**: 定义每页显示的文章数量。此配置位于 `_config.yml` 的根级别。
     *   **示例**: `paginate: 10`
+
+### 4. 网站图标 (Favicon)
+
+Chirpy 主题的网站图标配置采用**约定优于配置 (Convention over Configuration)** 的原则，而非通过 `_config.yml` 中的单一路径设置。系统依赖于 `assets/img/favicons/` 目录下的一个完整图标集。
+
+#### 配置步骤
+
+为确保图标在所有平台（桌面浏览器、iOS、Android）和场景（PWA、固定标签页）下均能正确显示，推荐遵循以下步骤：
+
+1.  **准备源图像**：
+    *   准备一张**正方形**的高分辨率 logo 图像（如 `logo.png`），尺寸**至少为 512x512 像素**。
+
+2.  **使用在线工具生成图标包**：
+    *   访问 **Real Favicon Generator** 等专业的在线 favicon 生成工具。
+    *   上传您的源图像，工具将自动生成适配所有平台的图标文件。
+
+3.  **清理并部署文件**：
+    *   下载并解压生成的 `.zip` 包。
+    *   **关键步骤**：在解压出的文件中，找到并**删除**以下两个配置文件：
+        *   `site.webmanifest`
+        *   `browserconfig.xml`
+        *   *原因：Chirpy 主题会根据 `_config.yml` 的配置动态生成自己的 `manifest` 文件，外部文件会引起冲突。*
+    *   将所有剩余的图片文件（包含新的 `favicon.ico`, `apple-touch-icon.png`, 各种尺寸的 `.png` 文件及 `.svg` 文件等）复制到您项目的 `assets/img/favicons/` 目录下，覆盖所有现有文件。
+
+4.  **验证**：
+    *   将更改推送到您的仓库，等待网站重新部署。
+    *   部署完成后，强制刷新浏览器缓存（`Ctrl+Shift+R` 或 `Cmd+Shift+R`）以查看新的网站图标。
 
 ---
 
