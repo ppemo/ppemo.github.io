@@ -1,10 +1,10 @@
 ---
-title: A Deep Dive into Modern Web Development
-date: 2026-02-20 10:00:00 +0800
 layout: post
-toc: false
+title: "A Deep Dive into Modern Web Development"
+date: 2026-02-20 10:00:00 +0800
 categories: [Web Development, Tutorial]
 tags: [webdev, frontend, backend, devops, javascript]
+toc: false
 ---
 
 Welcome to this comprehensive guide to modern web development. In this post, we'll explore the various facets of building and deploying web applications in today's fast-paced technological landscape.
