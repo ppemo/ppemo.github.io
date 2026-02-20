@@ -243,7 +243,7 @@ Chirpy 主题支持标准的 Markdown 图片语法，并提供了一个增强的
 
 *   **语法**:
     ```liquid
-    {% include figure.html path="<图片路径>" class="<CSS类>" alt="<替代文本>" caption="<图片标题>" %}
+    {% comment %} {% include figure.html path="path/to/image.jpg" class="css-class" alt="alt-text" caption="caption-text" %} {% endcomment %}
     ```
 
 *   **参数详解**:
