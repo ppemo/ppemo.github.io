@@ -223,6 +223,55 @@ Chirpy 主题的网站图标配置采用**约定优于配置 (Convention over Co
     *   将更改推送到您的仓库，等待网站重新部署。
     *   部署完成后，强制刷新浏览器缓存（`Ctrl+Shift+R` 或 `Cmd+Shift+R`）以查看新的网站图标。
 
+### 5. 图片嵌入与增强功能
+
+Chirpy 主题支持标准的 Markdown 图片语法，并提供了一个增强的 Liquid include 标签来实现更丰富的展示效果，如对齐、标题和灯箱 (Lightbox) 效果。
+
+#### A. 标准 Markdown 方式
+
+适用于无需标题或特殊对齐的简单图片。图片默认居中显示。
+
+*   **语法**:
+    ```markdown
+    ![图片替代文本](/assets/img/path/to/your/image.png)
+    ```
+*   **建议**: 将所有文章图片统一存放在 `/assets/img/` 目录下，便于管理。
+
+#### B. 增强功能方式 (`figure` include)
+
+当需要为图片添加标题 (Caption)、设置对齐或启用灯箱效果时，应使用主题内置的 `figure.html` include 功能。
+
+*   **语法**:
+    ```liquid
+    {% include figure.html path="<图片路径>" class="<CSS类>" alt="<替代文本>" caption="<图片标题>" %}
+    ```
+
+*   **参数详解**:
+    *   `path` (必需): 图片的路径，例如 `/assets/img/path/to/your/image.png`。
+    *   `class` (可选): 用于控制对齐和样式的 CSS 类。
+        *   `.normal`: 取消主题的默认样式（如阴影）。
+        *   `.left`: 图片靠左浮动，文本将环绕在右侧。
+        *   `.right`: 图片靠右浮动，文本将环绕在左侧。
+        *   若不指定，图片将默认居中显示并带有主题样式。
+    *   `alt` (推荐): 图片的替代文本，用于 SEO 和可访问性。
+    *   `caption` (可选): 显示在图片下方的标题文字。
+
+*   **使用示例**:
+
+    1.  **带标题的居中图片**:
+        ```liquid
+        {% include figure.html path="/assets/img/sample.png" alt="示例图片" caption="这是一个居中显示的图片标题。" %}
+        ```
+
+    2.  **靠右对齐的图片**:
+        ```liquid
+        {% include figure.html path="/assets/img/sample.png" class="right" alt="示例图片" %}
+        ```
+
+#### C. 灯箱效果 (Lightbox)
+
+所有通过 `{% include figure.html ... %}` 方式嵌入的图片，Chirpy 主题都会自动为其启用 `glightbox` 灯箱效果。用户点击图片后，图片将在一个全屏遮罩层中放大显示，提供更佳的浏览体验。标准 Markdown 方式嵌入的图片则不具备此效果。
+
 ---
 
 ## 结论：高效配置，释放 Chirpy 潜能
