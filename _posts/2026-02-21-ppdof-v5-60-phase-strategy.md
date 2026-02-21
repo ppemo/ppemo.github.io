@@ -22,7 +22,7 @@ lang: zh-CN
 ## 游戏安装和注册 (Game Installation and Registration)
 
 - **游戏下载 (Game download)**: 内部群，群文件内高速下载器、注意选择正确路径，**勾选自动安装**(为防和谐等考虑，**压缩包是加密的，如忘记未勾选导致解压失败，找GM要解压密码**)。
-![[Pasted image 20260221182330.png]]
+![alt](assets/img/Pasted image 20260221182330.png)
 
 - **注册方式 (Registration method)**: 新人自行注册即可，无激活码，原则上一机一号，有问题找找老G。
 
