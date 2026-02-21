@@ -237,6 +237,13 @@ Chirpy 主题支持标准的 Markdown 图片语法，并提供了一个增强的
     ```
 *   **建议**: 将所有文章图片统一存放在 `/assets/img/` 目录下，便于管理。
 
+**示例图片1(源站)**:
+
+![内链示例图片](/assets/img/sample.png)
+
+**示例图片2(外链)**
+
+![外链示例图片](https://ppemo.top/static/img/sample.png)
 #### B. 增强功能方式 (`figure` include)
 
 略。
