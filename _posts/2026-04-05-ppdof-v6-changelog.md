@@ -1,8 +1,8 @@
 ---
 layout: post
-title: PPDOF V6 区域 版本更新日志
+title: PPDOF V6 累计更新日志
 date: 2026-04-05 00:00:00 +0800
-description: PPDOF V6 区域 版本更新日志。
+description: PPDOF V6 版本更新日志。
 categories:
   - 游戏
   - DNF
