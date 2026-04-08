@@ -16,7 +16,12 @@ timezone: Asia/Shanghai
 
 title: PPemo # the main title
 
-tagline: 爱狗、爱折腾。 # it will display as the subtitle
+tagline:
+  "喜欢折腾、容易EMO。"
+  计算机、网络、游戏相关行业多年从业者。
+  联系注明来意:
+  微信: ppemox
+  QQ: 473897835
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
