@@ -14,6 +14,8 @@ published: true
 lang: zh-CN
 ---
 
+QQ群: **765396877**
+
 ## 福利活动相关
 
 新角色:
