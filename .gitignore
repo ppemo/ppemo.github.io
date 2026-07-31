@@ -30,3 +30,4 @@ package-lock.json
 # Misc
 _sass/vendors
 assets/js/dist
+.github/copilot-instructions.md
