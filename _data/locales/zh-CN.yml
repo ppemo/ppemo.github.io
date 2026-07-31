@@ -28,6 +28,7 @@ post:
   related_posts: 相关文章
   newer: 上一篇
   older: 下一篇
+  pin_prompt: 置顶
 
 # Comments
 comments: 评论

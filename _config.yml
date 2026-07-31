@@ -17,8 +17,7 @@ timezone: Asia/Shanghai
 title: PPemo # the main title
 
 tagline: |-
-  资源获取可以直接在搜索框输入对应编号。
-  微信(注明来意): ppemox
+  资源获取可以直接在搜索框输入对应编号，特殊资源需要添加联系方式，点击对应图标可以找到我。
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.

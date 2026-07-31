@@ -1,0 +1,44 @@
+/* ===== 置顶文章样式 ===== */
+
+#post-list {
+  .card-wrapper.pinned {
+    /* 左侧强调色边框 */
+    border-left: 4px solid var(--toc-highlight);
+
+    /* 微妙的背景色变化，使用 color-mix 兼容现代浏览器 */
+    background: linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--toc-highlight) 5%, transparent) 0%,
+      transparent 60%
+    );
+
+    /* 轻微的阴影提升层次感 */
+    box-shadow: var(--card-shadow), 0 0 0 0 transparent;
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+
+    &:hover {
+      box-shadow:
+        var(--card-shadow),
+        0 4px 16px color-mix(in srgb, var(--toc-highlight) 12%, transparent);
+      border-left-color: var(--link-color);
+    }
+
+    /* 置顶标记样式 */
+    .pin {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      padding: 0.15rem 0.5rem;
+      border-radius: 0.25rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--toc-highlight);
+      background-color: color-mix(in srgb, var(--toc-highlight) 10%, transparent);
+      white-space: nowrap;
+
+      i {
+        font-size: 0.7rem;
+      }
+    }
+  }
+}
