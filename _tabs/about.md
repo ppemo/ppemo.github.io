@@ -25,12 +25,12 @@ order: 4
 
 ## 联系方式
 
-### 微信
+### 微信 {#wechat}
 
 ![微信二维码](/assets/img/qr_wechat_ppemox.jpg)
 
 微信号：`ppemox`（添加时请注明来意）
 
-### QQ 群
+### QQ 群 {#qq-group}
 
 ![QQ群二维码](/assets/img/qr_qqq_680818963.jpg)

@@ -9,11 +9,11 @@
 
 - type: wechat
   icon: "fab fa-weixin"
-  url: "/about/" # 跳转到关于页展示微信二维码
+  url: "/about/#wechat"
 
 - type: qq
   icon: "fab fa-qq"
-  url: "/about/" # 跳转到关于页展示 QQ 群二维码
+  url: "/about/#qq-group"
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
