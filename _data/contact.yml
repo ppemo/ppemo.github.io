@@ -10,10 +10,12 @@
 - type: wechat
   icon: "fab fa-weixin"
   url: "/about/#wechat"
+  noblank: true
 
 - type: qq
   icon: "fab fa-qq"
   url: "/about/#qq-group"
+  noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
